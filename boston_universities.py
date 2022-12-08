@@ -37,7 +37,7 @@ server = app.server
 df = pd.DataFrame({
     "University": ["Bentley", "Boston University", "Boston College",
                    "Harvard", "Brandeis", "Northeastern"],
-    "Enrollment": [5314, 33720, 14171, 21015, 5825, 22207],
+    "Enrollment": [5314, 33720, -14171, 21015, -5825, 22207],
     "City": ["Waltham", "Boston", "Chestnut Hill",
              "Cambridge", "Waltham", "Boston"]
 })
